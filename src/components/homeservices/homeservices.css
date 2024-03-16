@@ -1,0 +1,39 @@
+.homeservices-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 6rem 8rem;
+    background-color: purple;
+}
+.homeservice-services-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 2rem;
+    margin-top: 2rem;
+}
+
+.homeservice-services{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin: 3rem 0;
+    height: 700px;
+   
+
+}
+.homeservice-services-title {
+    margin-right: 2rem;
+    background-color: black;
+
+}
+
+.homeservice-services-title h1{
+    font-family: var(--font-family);
+    font-size: 48px;
+    margin: 0 0 1.5rem;
+    max-width: 500px;
+    color: white;
+    height: 100%;
+}

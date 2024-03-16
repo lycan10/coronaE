@@ -1,0 +1,108 @@
+.homegallery{
+    background-color: white;
+}
+.homegallery-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 6rem 8rem;
+}
+.homegallery-title-container{
+position: relative;
+}
+.homegallery-title{
+    position: relative;
+}
+.homegallery-title h1{
+    font-family: "Pinyon Script", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 130px;
+    color: rgba(129, 129, 129, 0.4);
+}
+.homegallery-sub-title{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 0.5rem;
+    height: 100%;
+    width: 100%;
+}
+.homegallery-sub-title h3{
+    font-family: var(--smaller-family);
+    font-size: 12px;
+    margin: 0 0 0.5rem;
+    color: purple;
+    font-weight: 300;
+    letter-spacing: 2px;
+}
+.homegallery-sub-title h1{
+    font-family: var(--font-family);
+    font-size: 48px;
+    margin: 0 0 1rem;
+    color: purple;
+}
+.homegallery-footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.homegallery-footer-horizontal{
+    width: 50px;
+    height: 1px;
+    background-color: purple !important;
+}
+.homegallery-footer-image{
+    margin: 0rem 1.5rem;       
+}
+.homegallery-footer-image img{ 
+    width: 20px;
+    height: 20px;   
+    object-fit: cover;     
+}
+
+.homegallery-gallery-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 2rem;
+    margin: 5rem 0;
+}
+.homegallery-cta-container{
+    height: 0;
+}
+
+.homegallery-cta{
+    background-color: purple;
+    padding: 1rem 2rem;
+    color: white;
+    cursor: pointer;
+    transition: all 0.5s ease-in-out;
+    border: 1px solid purple;
+}
+.homegallery-cta:hover{
+    background-color: transparent;
+    border: 1px solid purple;
+    color: purple;
+    cursor: pointer;
+    transition: all 0.5s ease-in-out;
+}
+.homegallery-cta p{
+    color: white;
+    font-family: var(--smaller-family);
+    font-size: 12px;
+    font-weight: 400;
+    letter-spacing: 2px;
+    transition: all 0.5s ease-in-out;
+}
+.homegallery-cta:hover p{
+    color: purple;
+    font-family: var(--smaller-family);
+    font-size: 12px;
+    font-weight: 400;
+    letter-spacing: 2px;
+    transition: all 0.5s ease-in-out;
+}

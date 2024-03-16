@@ -1,0 +1,56 @@
+.homecontact{
+    padding: 6em 8rem;
+}
+.homecontact-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 20px;
+}
+.homecontact-text{
+    width: 100%;
+    height: 100%;
+}
+.homecontact-text p{
+    font-family: var(--font-family);
+    font-size: 18px;
+    margin: 0 0 1rem;
+    color: gold;
+}
+.homecontact-text h1{
+    font-family: var(--font-family);
+    font-size: 32px;
+    max-width: 500px;
+    line-height: 2.7rem;
+    margin: 0 0 1.5rem;
+    color: black;
+}
+.homecontact-tel-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-bottom: 1rem;
+}
+.homecontact-tel-container img{
+    height: 30px;
+    width: 30px;
+}
+.homecontact-tel{
+margin-left: 1rem;
+}
+.homecontact-tel h1{
+    font-family: var(--font-family);
+    font-size: 19px;
+    margin: 0rem;
+    color: black;
+}
+.homecontact-tel p{
+    font-family: var(--font-family);
+    font-size: 12px;
+    margin: 0 0 0.1rem;
+    color: purple;
+}
+.homecontact-map{
+    width: 100%;
+    height: 100%;
+}
